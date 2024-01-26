@@ -1,14 +1,15 @@
 function duplicateCount(text) {
-  let count = 0
-  text.toLocaleLowerCase().split('').sort().reduce((acc, curr) => {
-    if (acc === curr) {
-      count++
-    }
-    console.log(curr);
-    return curr
-  }, 0)
+  const charSet = new Set();
+  const duplicates = new Set();
 
-  return count
+  text.toLowerCase().split('').forEach((char) => {
+    if (charSet.has(char)) {
+      duplicates.add(char);
+    }
+    charSet.add(char);
+  });
+
+  return duplicates.size;
 }
 
-console.log(duplicateCount('Indivisibility'));
+console.log(duplicateCount('Indivisibilities'));

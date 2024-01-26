@@ -1,0 +1,2 @@
+const numberToString = (num) => `${num}`
+
