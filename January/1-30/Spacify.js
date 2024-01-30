@@ -1,0 +1,1 @@
+const spacify = (str) => str.replaceAll("", " ").slice(1, -1);
