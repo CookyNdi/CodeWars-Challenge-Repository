@@ -10,25 +10,25 @@ The repository is structured as follows:
 
         daily-codewars-challenge/
     |-- Month1/
-    |   |-- Day1/
+    |   |-- 1-1/
     |   |   |-- exercise1.js
-    |   |   |-- exercise2.py
+    |   |   |-- exercise2.ts
     |   |   |-- ...
     |   |
-    |   |-- Day2/
-    |   |   |-- exercise1.java
-    |   |   |-- exercise2.rb
+    |   |-- 1-2/
+    |   |   |-- exercise1.ts
+    |   |   |-- exercise2.js
     |   |   |-- ...
     |   |
     |   |-- ...
     |
     |-- Month2/
-    |   |-- Day1/
+    |   |-- 2-1/
     |   |   |-- exercise1.ts
     |   |   |-- exercise2.js
     |   |   |-- ...
     |   |
-    |   |-- Day2/
+    |   |-- 2-2/
     |   |   |-- exercise1.ts
     |   |   |-- exercise2.js
     |   |   |-- ...
